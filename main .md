@@ -1,5 +1,5 @@
 region  = "us-west-2"
-profile = "Jane_AWS"
+profile = "Janebuk_AWS"
 
 vpc_cidr = "10.0.0.0/16"
 
@@ -13,7 +13,7 @@ private_subnets_cidr = ["10.0.0.0/24", "10.0.1.0/24", "10.0.2.0/24"]
 
 ec2_ami = "ami-0abcdef1234567890"
 
-ec2_instance_type = "t2.micro"
+ec2_instance_type = "t3.micro"
 
 cool_down = 300
 
@@ -24,3 +24,6 @@ GreaterThanOrEqualToThreshold = "60"
 scale_down_period = "120"
 
 LessThanOrEqualToThreshold = "10"
+
+
+
